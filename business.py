@@ -210,7 +210,7 @@ if __name__ == '__main__':
                     elif pcode == 103:
                         logging.info('{} interrupted!'.format(todo_prj_name))
                         lineNotifyMessage(f'{todo_prj_name} interrupted!')
-                        addQueue(os.path.basename(todo_prj_name)[:-6])
+                        addQueue(os.path.basename(todo_prj_name))
                         del(prj)
                         
                     else:

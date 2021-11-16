@@ -71,9 +71,9 @@ for folder in getFolders():
                     for file in files:                   
                         if file.endswith(".log"):
                             with open(os.path.join(root, file), encoding='UTF-8') as f:
-                                log = f.read()
+                                log = f.readlines()
 
-            st.text_area('Simulation Message',log, height=600)
+            st.text_area('Simulation Message', ''.join(log[-8:]), height=300)
 
 
 
