@@ -4,7 +4,7 @@ queue_dir = 'D:/demo'
 idle_skip_sec = 600
 days_to_keep = 3
 cores = 20
-#line_notify_handler = '58ceAuCRlEIZPnjkcf4LGLV32AVgwSSNfYymTfUpxRi'
+#line_notify_handler = ''
 
 import os
 import time
